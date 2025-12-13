@@ -262,7 +262,7 @@ const COMPREHENSION_BY_MODE: Record<InterfaceMode, CompQuestion[]> = {
     {
       id: 't-q4',
       prompt:
-        'Do red-highlighted words mean the statement is incorrect?',
+        'Do red-highlighted words mean the statement MUST be incorrect?',
       options: ['Yes', 'No'],
       correctIndex: 1,
     },
