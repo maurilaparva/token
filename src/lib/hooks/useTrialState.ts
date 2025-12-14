@@ -12,7 +12,7 @@ export function useTrialState(questionId: string) {
       setAnswerDisplayedAt(Date.now());
     }
   }
-
+  
   // ===============================
   // PERFORMANCE VARIABLES
   // ===============================
